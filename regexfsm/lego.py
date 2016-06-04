@@ -32,7 +32,7 @@
 	pattern, these procedures can drastically simplify a regex structure for
 	readability. They're also pretty extensible.
 '''
-from refsm import fsm
+from regexfsm import fsm
 
 class nomatch(Exception):
 	'''Thrown when parsing fails. Almost always caught and almost never fatal'''
